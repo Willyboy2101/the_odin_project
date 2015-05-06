@@ -1,0 +1,421 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+body a {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+
+#header {
+	overflow: hidden;
+	position: relative;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid silver;
+}
+
+#header a {
+	font-size: 13px;
+	color: #444;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+#header #googleLogo {
+	width: 89px;
+	margin: 14px 20px 14px 12px;
+}
+
+#header input[type=text] {
+	display: inline-block;
+	border: 1px solid #DCDCDC;
+	height: 28px;
+	width: 585px;
+	padding-left: 8px;
+}
+
+#header input[type=text]:hover {
+	border: 1px solid #C0C0C0;
+}
+
+#header input[type=text]:focus {
+	outline: none;
+	border: 1px solid #4285F4;
+}
+
+#header #searchButton {
+	display: inline-block;
+	width: 55px;
+	height: 28px;
+	background-color: #55F;
+	border: 1px solid blue;
+	border-radius: 0 3px 3px 0;
+}
+
+#header input[type=text], #header #searchButton {
+	margin-top: 14px;
+}
+
+#header #searchButton:hover {
+	background-color: #88F;
+}
+
+#header #searchButton #glass {
+	background-image: url("images/sprites2.png");
+	background-position: -783px -68px;
+	width: 16px;
+	height: 16px;
+	margin: 7px 0 0 20px;
+}
+
+#header img, #header form, #header input, #header ul {
+	display: inline-block;
+}
+
+#header input {
+	margin: 0;
+}
+
+#googleLogo, #header form, #searchButtons {
+	float: left;
+}
+
+#header #accountMenu {
+	float: right;
+	margin-top: 13px;
+}
+
+#header #accountMenu li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 17px;
+}
+
+#header #accountMenu li:nth-child(2),
+#header #accountMenu li:nth-child(3),
+#header #accountMenu li:nth-child(4) {
+	width: 23px;
+	height: 23px;
+}
+
+#header #accountMenu li:nth-child(5) {
+	height: 32px;
+	width: 32px;
+	margin-right: 25px;
+}
+
+#apps, #share, #bell {
+	display: inline-block;
+}
+
+#apps {
+	background-image: url("images/sprite.png");
+	background-position: -73px -858px;
+	position: absolute;
+	width: 23px;
+	height: 23px;
+}
+
+#bell {
+	background-image: url("images/sprite.png");
+	background-position: -69px -73px;
+	position: absolute;
+	width: 23px;
+	height: 23px;
+}
+
+#share {
+	background-image: url("images/sprite.png");
+	background-position: -4px -512px;
+	position: absolute;
+	width: 23px;
+	height: 23px;
+}
+
+#account {
+	border-radius: 100%;
+}
+
+#navigation {
+	overflow: hidden;
+	border-bottom: 1px solid silver;
+}
+
+#navigation a {
+	color: #777;
+}
+
+#navigation #navList {
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	margin-left: 130px;
+}
+
+#navigation #navList > div {
+	display: inline-block;
+	margin-right: 16px;
+}
+
+#navigation #navList > div:first-child {
+	border-bottom: 2px solid red;
+}
+
+#navigation #navList > div > a {
+	display: block;
+	font-size: 13px;
+}
+
+#navigation #navList > div > a:hover {
+	text-decoration: underline;
+}
+
+#navigation #navList > div:nth-child(-n+6) > a {
+	padding: 17px 7px 22px 7px;
+}
+
+#navigation #navList > div:nth-child(1) > a {
+	font-weight: bold;
+	color: red;
+}
+
+#navigation #settingButtons {
+	display: block;
+	overflow: hidden;
+	float: right;
+}
+
+#navigation #settingButtons > div {
+	display: block;
+	float: left;
+	height: 28px;
+	width: 43px;
+	margin-top: 12px;
+}
+
+#navigation #settingButtons > div:nth-child(1) {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	border-radius: 3px 0 0 3px;
+	background-color: #DDD;
+}
+
+#navigation #settingButtons > div:nth-child(2) {
+	border: 1px solid silver;
+	border-radius: 0 3px 3px 0;
+	background-color: #F5F5F5;
+}
+
+#navigation #settingButtons > div:nth-child(3) {
+	border: 1px solid silver;
+	border-radius: 3px;
+	width: 75px;
+	background-color: #F5F5F5;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+
+#navigation #settingButtons div #show {
+	background-image: url("images/sprites2.png");
+	background-position: -15px -328px;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin: 8px 0 0 10px;
+}
+
+#navigation #settingButtons div #hide {
+	background-image: url("images/sprites2.png");
+	background-position: -30px -328px;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin: 8px 0 0 10px;
+}
+
+#navigation #settingButtons div #options {
+	background-image: url("images/sprites2.png");
+	background-position: -41px -258px;
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	margin: 8px 0 0 10px;
+}
+
+#mainContent {
+	clear: both;
+	width: 530px;
+	margin-left: 110px;
+	padding: 15px 0 0 15px;
+}
+
+#mainContent a:hover {
+	text-decoration: underline;
+}
+
+#mainContent #resultList {
+	padding-bottom: 5px;
+}
+
+#mainContent #resultList #singleResult {
+	padding-bottom: 12px;
+}
+
+#mainContent h1 {
+	margin: 0;
+}
+
+#mainContent h1 a {
+	color: blue;
+	font-size: 15pt;
+	font-weight: normal;
+}
+
+#mainContent #resultList {
+	border-bottom: 1px solid silver;
+}
+
+#mainContent h6 {
+	color: green;
+	font-size: 11pt;
+	font-weight: normal;
+}
+
+#mainContent p {
+	font-size: 13px;
+	color: #444;
+}
+
+#mainContent #statistics {
+	padding-bottom: 20px;
+}
+
+#statistics, #singleResult, #adResult, #relatedSearch {
+	padding-left: 15px;
+}
+
+#adResult {
+	padding-bottom: 20px;
+	border-bottom: 1px solid silver;
+}
+
+#adResult span {
+	color: white;
+	background-color: orange;
+	border-radius: 2px;
+	margin-right: 5px;
+	padding: 0 2px;
+}
+
+#relatedSearch {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid silver;
+}
+
+#relatedSearch h1 {
+	font-size: 15pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+#relatedSearch div {
+	overflow: hidden;
+}
+
+#relatedSearch div p {
+	padding: 5px 0;
+}
+
+#column1 {
+	float: left;
+	margin-right: 10px;
+}
+
+#pages {
+	overflow: hidden;
+	text-align: center;
+}
+
+#goooooooooogle {
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+#goooooooooogle a {
+	display: block;
+	position: relative;
+	height: 65px;
+}
+
+#goooooooooogle a:visited {
+	color: blue;
+}
+
+#goooooooooogle > div {
+	float: left;
+	display: block;
+}
+
+#goooooooooogle > div:first-child {
+	position: relative;
+	height: 65px;
+}
+
+#goooooooooogle > div:first-child > p{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-weight: bold;
+	margin-right: 7px;
+}
+
+#goooooooooogle #go {
+	position: relative;
+	background-image: url("images/sprites2.png");
+	background-position: 0px 0px;
+	width: 74px;
+	height: 40px;
+}
+
+#goooooooooogle #ooo {
+	background-image: url("images/sprites2.png");
+	background-position: -74px 0px;
+	width: 21px;
+	height: 40px;
+}
+
+#goooooooooogle #gle {
+	background-image: url("images/sprites2.png");
+	background-position: -95px 0px;
+	width: 72px;
+	height: 40px;
+}
+
+#goooooooooogle > div > a > p {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin-left: -4px;
+}
+
+#goooooooooogle div:nth-child(10) > a > p {
+	margin-left: -8px;
+}
+
+#goooooooooogle div:last-child > a > p {
+	right: 0;
+}
+
+#goooooooooogle > div:hover > a > p {
+	text-decoration: underline;
+}

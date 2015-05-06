@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="ResultsStyle.css" />
+  <title>Welcome to Google</title>
+</head>
+
+<body>
+
+	<div id="header">
+		<img id="googleLogo" src="images/google logo.png" alt="Google">
+		<form>
+			<input type="text" value="build this page">
+		</form>
+		<div id="searchButton"><div id="glass"></div></div>
+		<ul id="accountMenu">
+			<li><a href="#">+Myname</a></li>
+			<li><a href="#"><div id="apps"></div></a></li>
+			<li><a href="#"><div id="bell"></div></a></li>
+			<li><a href="#"><div id="share"></div></a></li>
+			<li><a href="#"><img id="account" src="images/photo.png" alt="account"></a></li>
+		</ul>
+	</div>
+	
+	<div id="navigation">
+		<div id="navList">
+			<div><a href="#">Web</a></div>
+			<div><a href="#">Images</a></div>
+			<div><a href="#">Videos</a></div>
+			<div><a href="#">Maps</a></div>
+			<div><a href="#">News</a></div>
+			<div><a href="#">More</a></div>
+			<div><a href="#">Search tools</a></div>
+		</div>
+		<div id="settingButtons">
+			<div><div id="show"></div></div>
+			<div><div id="hide"></div></div>
+			<div><div id="options"></div></div>
+		</div>
+	</div>
+	
+	<div id="mainContent">
+		<div id="statistics">
+			<p>About 1,430,000,000 results (0.58 seconds)</p>
+		</div>
+		<div id="resultList">
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>
+			<div id="singleResult">
+				<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+				<h6>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you
+				to write a bunch of code, we think it's helpful for you to see
+				exactly what you'll be making in ...</p>
+			</div>	
+		</div>
+		<div id="adResult">
+			<h1><a href="#">Build Your Own Webpage | Codecademy</a></h1>
+			<h6><span>Ad</span>www.codecademy.com/courses/web-beginner-en-LceTK</h6>
+			<p>Hundreds of Layouts are Available. Easily Create Your Web Page Today !</p>
+			<p>Free Domain · 2015 Ranking · Free Hosting Included · Expert Reviews</p>
+			<p>Top 10 Best Website Builders has 426 followers on Google+</p>
+			<p>Choosing A Site Builder - Network Solutions - ReviewWeb.com Review</p>
+		</div>
+		<div id="relatedSearch">
+			<h1>Searches related to build this page</h1>
+			<div id="column1">
+				<p><a href="#">page build maplestory</a></p>
+				<p><a href="#">page building duke</a></p>
+				<p><a href="#">page building contractors</a></p>
+			</div>
+			<div id="column2">
+				<p><a href="#">page building consultants</a></p>
+				<p><a href="#">page building consultants ltd</a></p>
+				<p><a href="#">how to build a webpage</a></p>
+			</div>
+		</div>
+		<div id="pages">
+			<div id="goooooooooogle">
+				<div><div id="go"></div><p>1</p></div>
+				<div><a href="#"><div id="ooo"></div><p>2</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>3</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>4</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>5</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>6</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>7</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>8</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>9</p></a></div>
+				<div><a href="#"><div id="ooo"></div><p>10</p></a></div>
+				<div><a href="#"><div id="gle"></div><p>Next</p></a></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer"></div>
+	
+</body>
+</html>
