@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#gridContainer {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto 25px auto;
+	border: 1px solid black;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+#gridContainer > div {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+}
+
+#gridContainer > div > div {
+	display: block;
+	-webkit-box-flex: 1;
+}
+
+#buttonsDiv {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#buttonsDiv button {
+	margin: 25px 25px;
+}
